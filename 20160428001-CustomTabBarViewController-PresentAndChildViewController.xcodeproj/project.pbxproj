@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D59E9A9D1CD25D120076D43B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E9A9C1CD25D120076D43B /* main.m */; };
+		D59E9AA01CD25D120076D43B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E9A9F1CD25D120076D43B /* AppDelegate.m */; };
+		D59E9AA31CD25D120076D43B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E9AA21CD25D120076D43B /* ViewController.m */; };
+		D59E9AA61CD25D120076D43B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59E9AA41CD25D120076D43B /* Main.storyboard */; };
+		D59E9AA81CD25D120076D43B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59E9AA71CD25D120076D43B /* Assets.xcassets */; };
+		D59E9AAB1CD25D120076D43B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59E9AA91CD25D120076D43B /* LaunchScreen.storyboard */; };
+		D59E9AB61CD25D120076D43B /* _0160428001_CustomTabBarViewController_PresentAndChildViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E9AB51CD25D120076D43B /* _0160428001_CustomTabBarViewController_PresentAndChildViewControllerTests.m */; };
+		D59E9AC11CD25D120076D43B /* _0160428001_CustomTabBarViewController_PresentAndChildViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E9AC01CD25D120076D43B /* _0160428001_CustomTabBarViewController_PresentAndChildViewControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D59E9AB21CD25D120076D43B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59E9A901CD25D120076D43B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D59E9A971CD25D120076D43B;
+			remoteInfo = "20160428001-CustomTabBarViewController-PresentAndChildViewController";
+		};
+		D59E9ABD1CD25D120076D43B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59E9A901CD25D120076D43B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D59E9A971CD25D120076D43B;
+			remoteInfo = "20160428001-CustomTabBarViewController-PresentAndChildViewController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D59E9A981CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20160428001-CustomTabBarViewController-PresentAndChildViewController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59E9A9C1CD25D120076D43B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D59E9A9E1CD25D120076D43B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D59E9A9F1CD25D120076D43B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D59E9AA11CD25D120076D43B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D59E9AA21CD25D120076D43B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D59E9AA51CD25D120076D43B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D59E9AA71CD25D120076D43B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D59E9AAA1CD25D120076D43B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D59E9AAC1CD25D120076D43B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59E9AB11CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160428001-CustomTabBarViewController-PresentAndChildViewControllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59E9AB51CD25D120076D43B /* _0160428001_CustomTabBarViewController_PresentAndChildViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160428001_CustomTabBarViewController_PresentAndChildViewControllerTests.m; sourceTree = "<group>"; };
+		D59E9AB71CD25D120076D43B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59E9ABC1CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160428001-CustomTabBarViewController-PresentAndChildViewControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59E9AC01CD25D120076D43B /* _0160428001_CustomTabBarViewController_PresentAndChildViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160428001_CustomTabBarViewController_PresentAndChildViewControllerUITests.m; sourceTree = "<group>"; };
+		D59E9AC21CD25D120076D43B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D59E9A951CD25D120076D43B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59E9AAE1CD25D120076D43B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59E9AB91CD25D120076D43B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D59E9A8F1CD25D120076D43B = {
+			isa = PBXGroup;
+			children = (
+				D59E9A9A1CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewController */,
+				D59E9AB41CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewControllerTests */,
+				D59E9ABF1CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewControllerUITests */,
+				D59E9A991CD25D120076D43B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D59E9A991CD25D120076D43B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D59E9A981CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewController.app */,
+				D59E9AB11CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewControllerTests.xctest */,
+				D59E9ABC1CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D59E9A9A1CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D59E9A9E1CD25D120076D43B /* AppDelegate.h */,
+				D59E9A9F1CD25D120076D43B /* AppDelegate.m */,
+				D59E9AA11CD25D120076D43B /* ViewController.h */,
+				D59E9AA21CD25D120076D43B /* ViewController.m */,
+				D59E9AA41CD25D120076D43B /* Main.storyboard */,
+				D59E9AA71CD25D120076D43B /* Assets.xcassets */,
+				D59E9AA91CD25D120076D43B /* LaunchScreen.storyboard */,
+				D59E9AAC1CD25D120076D43B /* Info.plist */,
+				D59E9A9B1CD25D120076D43B /* Supporting Files */,
+			);
+			path = "20160428001-CustomTabBarViewController-PresentAndChildViewController";
+			sourceTree = "<group>";
+		};
+		D59E9A9B1CD25D120076D43B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D59E9A9C1CD25D120076D43B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D59E9AB41CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D59E9AB51CD25D120076D43B /* _0160428001_CustomTabBarViewController_PresentAndChildViewControllerTests.m */,
+				D59E9AB71CD25D120076D43B /* Info.plist */,
+			);
+			path = "20160428001-CustomTabBarViewController-PresentAndChildViewControllerTests";
+			sourceTree = "<group>";
+		};
+		D59E9ABF1CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D59E9AC01CD25D120076D43B /* _0160428001_CustomTabBarViewController_PresentAndChildViewControllerUITests.m */,
+				D59E9AC21CD25D120076D43B /* Info.plist */,
+			);
+			path = "20160428001-CustomTabBarViewController-PresentAndChildViewControllerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D59E9A971CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59E9AC51CD25D120076D43B /* Build configuration list for PBXNativeTarget "20160428001-CustomTabBarViewController-PresentAndChildViewController" */;
+			buildPhases = (
+				D59E9A941CD25D120076D43B /* Sources */,
+				D59E9A951CD25D120076D43B /* Frameworks */,
+				D59E9A961CD25D120076D43B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20160428001-CustomTabBarViewController-PresentAndChildViewController";
+			productName = "20160428001-CustomTabBarViewController-PresentAndChildViewController";
+			productReference = D59E9A981CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D59E9AB01CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59E9AC81CD25D120076D43B /* Build configuration list for PBXNativeTarget "20160428001-CustomTabBarViewController-PresentAndChildViewControllerTests" */;
+			buildPhases = (
+				D59E9AAD1CD25D120076D43B /* Sources */,
+				D59E9AAE1CD25D120076D43B /* Frameworks */,
+				D59E9AAF1CD25D120076D43B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D59E9AB31CD25D120076D43B /* PBXTargetDependency */,
+			);
+			name = "20160428001-CustomTabBarViewController-PresentAndChildViewControllerTests";
+			productName = "20160428001-CustomTabBarViewController-PresentAndChildViewControllerTests";
+			productReference = D59E9AB11CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D59E9ABB1CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59E9ACB1CD25D120076D43B /* Build configuration list for PBXNativeTarget "20160428001-CustomTabBarViewController-PresentAndChildViewControllerUITests" */;
+			buildPhases = (
+				D59E9AB81CD25D120076D43B /* Sources */,
+				D59E9AB91CD25D120076D43B /* Frameworks */,
+				D59E9ABA1CD25D120076D43B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D59E9ABE1CD25D120076D43B /* PBXTargetDependency */,
+			);
+			name = "20160428001-CustomTabBarViewController-PresentAndChildViewControllerUITests";
+			productName = "20160428001-CustomTabBarViewController-PresentAndChildViewControllerUITests";
+			productReference = D59E9ABC1CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D59E9A901CD25D120076D43B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rainer;
+				TargetAttributes = {
+					D59E9A971CD25D120076D43B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D59E9AB01CD25D120076D43B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D59E9A971CD25D120076D43B;
+					};
+					D59E9ABB1CD25D120076D43B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D59E9A971CD25D120076D43B;
+					};
+				};
+			};
+			buildConfigurationList = D59E9A931CD25D120076D43B /* Build configuration list for PBXProject "20160428001-CustomTabBarViewController-PresentAndChildViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D59E9A8F1CD25D120076D43B;
+			productRefGroup = D59E9A991CD25D120076D43B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D59E9A971CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewController */,
+				D59E9AB01CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewControllerTests */,
+				D59E9ABB1CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D59E9A961CD25D120076D43B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59E9AAB1CD25D120076D43B /* LaunchScreen.storyboard in Resources */,
+				D59E9AA81CD25D120076D43B /* Assets.xcassets in Resources */,
+				D59E9AA61CD25D120076D43B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59E9AAF1CD25D120076D43B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59E9ABA1CD25D120076D43B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D59E9A941CD25D120076D43B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59E9AA31CD25D120076D43B /* ViewController.m in Sources */,
+				D59E9AA01CD25D120076D43B /* AppDelegate.m in Sources */,
+				D59E9A9D1CD25D120076D43B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59E9AAD1CD25D120076D43B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59E9AB61CD25D120076D43B /* _0160428001_CustomTabBarViewController_PresentAndChildViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59E9AB81CD25D120076D43B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59E9AC11CD25D120076D43B /* _0160428001_CustomTabBarViewController_PresentAndChildViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D59E9AB31CD25D120076D43B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D59E9A971CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewController */;
+			targetProxy = D59E9AB21CD25D120076D43B /* PBXContainerItemProxy */;
+		};
+		D59E9ABE1CD25D120076D43B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D59E9A971CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewController */;
+			targetProxy = D59E9ABD1CD25D120076D43B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D59E9AA41CD25D120076D43B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59E9AA51CD25D120076D43B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D59E9AA91CD25D120076D43B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59E9AAA1CD25D120076D43B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D59E9AC31CD25D120076D43B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D59E9AC41CD25D120076D43B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D59E9AC61CD25D120076D43B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160428001-CustomTabBarViewController-PresentAndChildViewController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160428001-CustomTabBarViewController-PresentAndChildViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D59E9AC71CD25D120076D43B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160428001-CustomTabBarViewController-PresentAndChildViewController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160428001-CustomTabBarViewController-PresentAndChildViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D59E9AC91CD25D120076D43B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160428001-CustomTabBarViewController-PresentAndChildViewControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160428001-CustomTabBarViewController-PresentAndChildViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160428001-CustomTabBarViewController-PresentAndChildViewController.app/20160428001-CustomTabBarViewController-PresentAndChildViewController";
+			};
+			name = Debug;
+		};
+		D59E9ACA1CD25D120076D43B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160428001-CustomTabBarViewController-PresentAndChildViewControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160428001-CustomTabBarViewController-PresentAndChildViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160428001-CustomTabBarViewController-PresentAndChildViewController.app/20160428001-CustomTabBarViewController-PresentAndChildViewController";
+			};
+			name = Release;
+		};
+		D59E9ACC1CD25D120076D43B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160428001-CustomTabBarViewController-PresentAndChildViewControllerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160428001-CustomTabBarViewController-PresentAndChildViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160428001-CustomTabBarViewController-PresentAndChildViewController";
+			};
+			name = Debug;
+		};
+		D59E9ACD1CD25D120076D43B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160428001-CustomTabBarViewController-PresentAndChildViewControllerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160428001-CustomTabBarViewController-PresentAndChildViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160428001-CustomTabBarViewController-PresentAndChildViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D59E9A931CD25D120076D43B /* Build configuration list for PBXProject "20160428001-CustomTabBarViewController-PresentAndChildViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59E9AC31CD25D120076D43B /* Debug */,
+				D59E9AC41CD25D120076D43B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59E9AC51CD25D120076D43B /* Build configuration list for PBXNativeTarget "20160428001-CustomTabBarViewController-PresentAndChildViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59E9AC61CD25D120076D43B /* Debug */,
+				D59E9AC71CD25D120076D43B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D59E9AC81CD25D120076D43B /* Build configuration list for PBXNativeTarget "20160428001-CustomTabBarViewController-PresentAndChildViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59E9AC91CD25D120076D43B /* Debug */,
+				D59E9ACA1CD25D120076D43B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D59E9ACB1CD25D120076D43B /* Build configuration list for PBXNativeTarget "20160428001-CustomTabBarViewController-PresentAndChildViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59E9ACC1CD25D120076D43B /* Debug */,
+				D59E9ACD1CD25D120076D43B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D59E9A901CD25D120076D43B /* Project object */;
+}
