@@ -15,6 +15,12 @@
 		D59E9AAB1CD25D120076D43B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59E9AA91CD25D120076D43B /* LaunchScreen.storyboard */; };
 		D59E9AB61CD25D120076D43B /* _0160428001_CustomTabBarViewController_PresentAndChildViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E9AB51CD25D120076D43B /* _0160428001_CustomTabBarViewController_PresentAndChildViewControllerTests.m */; };
 		D59E9AC11CD25D120076D43B /* _0160428001_CustomTabBarViewController_PresentAndChildViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E9AC01CD25D120076D43B /* _0160428001_CustomTabBarViewController_PresentAndChildViewControllerUITests.m */; };
+		D59E9AD41CD263100076D43B /* PayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E9AD21CD263100076D43B /* PayTableViewController.m */; };
+		D59E9AD51CD263100076D43B /* PayTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59E9AD31CD263100076D43B /* PayTableViewController.xib */; };
+		D59E9AD91CD263410076D43B /* PayForSandPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E9AD71CD263410076D43B /* PayForSandPayViewController.m */; };
+		D59E9ADA1CD263410076D43B /* PayForSandPayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59E9AD81CD263410076D43B /* PayForSandPayViewController.xib */; };
+		D59E9ADE1CD263570076D43B /* PayForBankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59E9ADC1CD263570076D43B /* PayForBankViewController.m */; };
+		D59E9ADF1CD263570076D43B /* PayForBankViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59E9ADD1CD263570076D43B /* PayForBankViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,15 @@
 		D59E9ABC1CD25D120076D43B /* 20160428001-CustomTabBarViewController-PresentAndChildViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160428001-CustomTabBarViewController-PresentAndChildViewControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59E9AC01CD25D120076D43B /* _0160428001_CustomTabBarViewController_PresentAndChildViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160428001_CustomTabBarViewController_PresentAndChildViewControllerUITests.m; sourceTree = "<group>"; };
 		D59E9AC21CD25D120076D43B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59E9AD11CD263100076D43B /* PayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PayTableViewController.h; path = ../PayTableViewController.h; sourceTree = "<group>"; };
+		D59E9AD21CD263100076D43B /* PayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PayTableViewController.m; path = ../PayTableViewController.m; sourceTree = "<group>"; };
+		D59E9AD31CD263100076D43B /* PayTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PayTableViewController.xib; path = ../PayTableViewController.xib; sourceTree = "<group>"; };
+		D59E9AD61CD263410076D43B /* PayForSandPayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayForSandPayViewController.h; sourceTree = "<group>"; };
+		D59E9AD71CD263410076D43B /* PayForSandPayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayForSandPayViewController.m; sourceTree = "<group>"; };
+		D59E9AD81CD263410076D43B /* PayForSandPayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayForSandPayViewController.xib; sourceTree = "<group>"; };
+		D59E9ADB1CD263570076D43B /* PayForBankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayForBankViewController.h; sourceTree = "<group>"; };
+		D59E9ADC1CD263570076D43B /* PayForBankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayForBankViewController.m; sourceTree = "<group>"; };
+		D59E9ADD1CD263570076D43B /* PayForBankViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayForBankViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +121,15 @@
 				D59E9AA11CD25D120076D43B /* ViewController.h */,
 				D59E9AA21CD25D120076D43B /* ViewController.m */,
 				D59E9AA41CD25D120076D43B /* Main.storyboard */,
+				D59E9AD11CD263100076D43B /* PayTableViewController.h */,
+				D59E9AD21CD263100076D43B /* PayTableViewController.m */,
+				D59E9AD31CD263100076D43B /* PayTableViewController.xib */,
+				D59E9AD61CD263410076D43B /* PayForSandPayViewController.h */,
+				D59E9AD71CD263410076D43B /* PayForSandPayViewController.m */,
+				D59E9AD81CD263410076D43B /* PayForSandPayViewController.xib */,
+				D59E9ADB1CD263570076D43B /* PayForBankViewController.h */,
+				D59E9ADC1CD263570076D43B /* PayForBankViewController.m */,
+				D59E9ADD1CD263570076D43B /* PayForBankViewController.xib */,
 				D59E9AA71CD25D120076D43B /* Assets.xcassets */,
 				D59E9AA91CD25D120076D43B /* LaunchScreen.storyboard */,
 				D59E9AAC1CD25D120076D43B /* Info.plist */,
@@ -243,9 +267,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D59E9AD51CD263100076D43B /* PayTableViewController.xib in Resources */,
 				D59E9AAB1CD25D120076D43B /* LaunchScreen.storyboard in Resources */,
 				D59E9AA81CD25D120076D43B /* Assets.xcassets in Resources */,
+				D59E9ADA1CD263410076D43B /* PayForSandPayViewController.xib in Resources */,
 				D59E9AA61CD25D120076D43B /* Main.storyboard in Resources */,
+				D59E9ADF1CD263570076D43B /* PayForBankViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +297,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D59E9AD41CD263100076D43B /* PayTableViewController.m in Sources */,
 				D59E9AA31CD25D120076D43B /* ViewController.m in Sources */,
+				D59E9AD91CD263410076D43B /* PayForSandPayViewController.m in Sources */,
 				D59E9AA01CD25D120076D43B /* AppDelegate.m in Sources */,
 				D59E9A9D1CD25D120076D43B /* main.m in Sources */,
+				D59E9ADE1CD263570076D43B /* PayForBankViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

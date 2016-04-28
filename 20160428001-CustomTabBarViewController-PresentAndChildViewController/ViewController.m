@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "PayTableViewController.h"
+#import "PayForSandPayViewController.h"
+#import "PayForBankViewController.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UIView *tabBarView;
 
 @end
 
@@ -16,7 +21,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+}
+- (IBAction)payButtonClickAction:(id)sender {
+    PayTableViewController *payTableViewController = [[PayTableViewController alloc] init];
+    
+    payTableViewController.view.frame = CGRectMake(0, CGRectGetMaxY(self.tabBarView.frame), self.view.frame.size.width, self.view.frame.size.height - CGRectGetMaxY(self.tabBarView.frame));
+    
+    [self.view addSubview:payTableViewController.view];
+}
+- (IBAction)PayForSandPayButtonClickAction:(id)sender {
+    PayForSandPayViewController *payForSandPayViewController = [[PayForSandPayViewController alloc] init];
+    
+    payForSandPayViewController.view.frame = CGRectMake(0, CGRectGetMaxY(self.tabBarView.frame), self.view.frame.size.width, self.view.frame.size.height - CGRectGetMaxY(self.tabBarView.frame));
+    
+    [self.view addSubview:payForSandPayViewController.view];
+}
+- (IBAction)payForBankButtonClickAction:(id)sender {
+    PayForBankViewController *payForBankViewController = [[PayForBankViewController alloc] init];
+    
+    payForBankViewController.view.frame = CGRectMake(0, CGRectGetMaxY(self.tabBarView.frame), self.view.frame.size.width, self.view.frame.size.height - CGRectGetMaxY(self.tabBarView.frame));
+    
+    [self.view addSubview:payForBankViewController.view];
 }
 
 - (void)didReceiveMemoryWarning {
