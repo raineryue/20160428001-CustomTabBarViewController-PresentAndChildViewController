@@ -56,6 +56,9 @@
     return cell;
 }
 
+- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
+    NSLog(@"%s", __func__);
+}
 
 /*
 // Override to support conditional editing of the table view.

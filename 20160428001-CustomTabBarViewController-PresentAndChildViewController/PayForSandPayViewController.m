@@ -24,6 +24,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration {
+    NSLog(@"%s", __func__);
+}
+
 /*
 #pragma mark - Navigation
 

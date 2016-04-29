@@ -27,7 +27,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="payButtonClickAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mAf-ju-QZ9"/>
+                                            <action selector="changeViewControllerButtonClickAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vnh-np-kXC"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHG-Nc-xk0">
@@ -37,7 +37,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="PayForSandPayButtonClickAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XGl-SK-6c5"/>
+                                            <action selector="changeViewControllerButtonClickAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YwF-KL-HTg"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EnE-wf-Kek">
@@ -47,7 +47,7 @@
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="payForBankButtonClickAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yyK-i5-3a7"/>
+                                            <action selector="changeViewControllerButtonClickAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sPD-WO-B1W"/>
                                         </connections>
                                     </button>
                                 </subviews>
